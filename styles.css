@@ -10,6 +10,7 @@ h6{
     margin-top: 15px;
     border-top-style: none;
     border-radius: 15px;
+    height: 80px;
 }
 .motto{
     font-family: cursive;
@@ -178,4 +179,75 @@ input{
  #back-btn{
     margin-top: -140px;
  }
+}
+#result{
+    background-color: rgba(0, 0, 255, 0.544);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -520px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    height: 190px;
+    border: 5px solid white;
+    border-radius: 20px;
+    transition: 1s ease-in;
+    opacity: 1;
+    display: none;
+}
+#return-btn{
+    background-color: transparent;
+    border: 5px solid rgba(0, 0, 255, 0.538);
+    border-radius: 15px;
+    color: white;
+    font-size: 22px;
+    height: 45px;
+    width: 130px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+.back-btn{
+    border: none;
+    background-color: rgba(0, 0, 255, 0.282);
+    color: white;
+    font-size: 20px;
+    width: 70px;
+    font-weight: lighter;
+    border-radius: 3px;
+    margin-top: 17px;
+    position: absolute;
+    height: 25px;
+    margin-left: -10px;
+}
+h4{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.social-media-platform{
+  background-color: rgba(0, 0, 255, 0.282);
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+}
+#contact-info{
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: red;
+}
+#school-address{
+    position: absolute;
+    margin-top: -100px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+#school-logo{
+    height: 300px;
+    width: 300px;
+    margin-left: 35px;
+    margin-top: -180px;
+    border-radius: 50%;
 }

@@ -8,6 +8,9 @@ let number = document.getElementById('phone')
 let date_of_birth = document.getElementById('dob')
 let add = document.getElementById('address')
 let previous_school = document.getElementById('p-school')
+let res = document.getElementById('result')
+let container = document.getElementById('info-space')
+let header = document.getElementById('reg-header')
 function openmenu(){
     document.getElementById('close').style.display = 'block'
     document.getElementById('menu').style.opacity ='0'
@@ -28,4 +31,17 @@ function submitform(){
    console.log('D.O.B:' + ' ' + document.getElementById('dob').value)
    console.log('ADDRESS:' + ' ' + document.getElementById('address').value)
    console.log('PREVIOUS SCHOOL:' + ' ' + document.getElementById('p-school').value)   
+
+          document.getElementById('result').style.display = 'block'
+          document.getElementById('info-space').style.display = 'none'
+          document.getElementById('reg-header').style.opacity = '0'
+          if (document.getElementById('info-space').style.display = 'none') {
+            document.getElementById('result').style.marginTop = '90px'
+          }
 }
+/*function returnpage(){
+    document.getElementById('result').style.display = 'none'
+    document.getElementById('info-space').style.display = 'block'
+
+    document.getElementById('reg-header').style.opacity = '1'
+}*/
