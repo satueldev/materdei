@@ -14,19 +14,19 @@
     <P id="register">Please fill in all the details correctly!</P>
     </div>
         <div class="info-space" id="info-space">
-            <form method="post" action="">
-    <input type="text" name="First-name" id="firstname" placeholder="FIRST NAME">
-    <input type="text" name="Middle-name" id="middlename" placeholder="MIDDLE NAME">
-    <input type="text" name="Surname" id="lastname" placeholder="LAST NAME">
-    <input type="tel" name="Phone number" id="phone" placeholder="PHONE NUMBER" maxlength="11">
-    <input type="tel" name="D.O.B" id="dob" placeholder="D.O.B e.g 01/01/2000">
-    <input type="text" name="Address" id="address" placeholder="RESIDENTIAL ADDRESS">
-    <input type="text" name="Previous school" id="p-school" placeholder="PREVIOUS SCHOOL">
-    <input type="button" value="Submit" onclick="submitform()" id="submit-btn">
+            <form action="https://formsubmit.co/52a06788bcd57a0f6876f4dc4cbb1179" method="POST">
+    <input type="text" name="First-name" id="firstname" placeholder="FIRST NAME" class="input-field" required>
+    <input type="text" name="Middle-name" id="middlename" placeholder="MIDDLE NAME" class="input-field" required>
+    <input type="text" name="Surname" id="lastname" placeholder="LAST NAME" class="input-field" required>
+    <input type="tel" name="Phone number" id="phone" placeholder="PHONE NUMBER" maxlength="11" class="input-field" required>
+    <input type="tel" name="D.O.B" id="dob" placeholder="D.O.B e.g 01/01/2000" class="input-field" required>
+    <input type="text" name="Address" id="address" placeholder="RESIDENTIAL ADDRESS" class="input-field" required>
+    <input type="text" name="Previous school" id="p-school" placeholder="PREVIOUS SCHOOL" class="input-field" required>
+    <input type="submit" value="Submit" onclick="submitform()" id="submit-btn" class="input-field">
             </form>
     </div>
-    <div class="result" id="result">SUCCESS!<br>Your information has successfully been submited!
+    <!--div class="result" id="result">SUCCESS!<br>Your information has successfully been submited!
    <a href="index.html"><input type="button" value="Homepage" id="return-btn" onclick="returnpage()"></a>
-    </div>
+    </div-->
 </body>
 </html>
